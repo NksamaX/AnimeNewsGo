@@ -8,7 +8,6 @@ import (
 
 // To get The news from AnimeNewsNetwork
 // fmt.Println(Get_News())
-
 func Get_News() string {
 	var url string = "https://animenewsnetwork.com"
 	res, err := soup.Get(url)
