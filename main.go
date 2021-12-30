@@ -1,7 +1,7 @@
 package main
 
 import (
-	"animenews/news"
+	"github.com/NksamaX/AnimeNewsGo/news"
 	"fmt"
 )
 
