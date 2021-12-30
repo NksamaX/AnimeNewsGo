@@ -1,4 +1,4 @@
-module animenews
+module github.com/NksamaX/AnimeNewsGo
 
 go 1.16
 
