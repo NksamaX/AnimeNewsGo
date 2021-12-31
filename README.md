@@ -1,5 +1,8 @@
 # AnimeNewsGo
-news from animenewsnetwork.com
+
+__News from animenewsnetwork.com__
+
+<a href="https://pkg.go.dev/github.com/NksamaX/AnimeNewsGo"><img src="https://pkg.go.dev/badge/github.com/NksamaX/AnimeNewsGo.svg" alt="Go Reference"></a>
 
 
 # How to install
