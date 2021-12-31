@@ -22,7 +22,7 @@ func Get_News() map[string]string {
 	newsx := data.Find("div", "class", "preview").Find("span", "class", "full")
 
 // 	return fmt.Sprintf("%v\n\n%v", title, newsx.FullText())
-	result = make(map[string]string)
+	result := make(map[string]string)
 	result["title"] = title
 	result["news"] = newsx
 	
