@@ -22,7 +22,10 @@ import (
 )
 
 func main() {
-	fmt.Println(news.Get_News())
+	x := news.Get_News()
+	fmt.Println(x["title"])
+	fmt.Println(x["news"])
+	
 }
 
 ```
