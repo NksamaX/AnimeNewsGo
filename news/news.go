@@ -19,7 +19,7 @@ func Get_News() map[string]string {
 	news := doc.FindStrict("div", "class", "herald box news")
 	data := news.Find("div", "class", "wrap")
 	title := data.Find("h3").Find("a").FullText()
-	newsx := data.Find("div", "class", "preview").Find("span", "class", "full")
+	newsx := data.Find("div", "class", "preview").Find("span", "class", "full").FullText()
 
 // 	return fmt.Sprintf("%v\n\n%v", title, newsx.FullText())
 	result := make(map[string]string)
